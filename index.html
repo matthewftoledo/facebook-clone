@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Clone</title>
+    <link rel="stylesheet" href="css/font5/all.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <!-- LOGO SECTION -->
+        <div class="header__logo-section">
+            <div class="header__logo-icon">
+                <i class="fab fa-facebook"></i>
+            </div>
+            <div class="header__logo-search">
+                <i class="fas fa-search"></i>
+                <input type="text">
+            </div>
+        </div>
+        <!-- MENU TABS -->
+        <div class="header__menu-tabs">
+            <div class="header__menu-tab header__menu-tab--active">
+                <i class="fas fa-home"></i>
+            </div>
+            <div class="header__menu-tab">
+                <i class="fas fa-flag">
+                    <div class="header__notification-bubble">
+                        3
+                    </div>
+                </i>
+            </div>
+            <div class="header__menu-tab">
+                <i class="fas fa-tv">
+                    <div class="header__notification-bubble">
+                        9
+                    </div>
+                </i>
+            </div>
+            <div class="header__menu-tab">
+                <i class="fas fa-store"></i>
+            </div>
+            <div class="header__menu-tab">
+                <i class="fas fa-users"></i>
+            </div>
+        </div>
+        <!-- ACCOUNTS -->
+        <div class="header__account">
+            <div class="header__actions">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" class="header__user-img">
+                <span class="header__user-name">Jane Doe</span>
+                <a href="#" class="header__circle-link">
+                    <i class="header__link-icon fas fa-plus"></i>
+                </a>
+                <a href="#" class="header__circle-link">
+                    <i class="header__link-icon fab fa-facebook-messenger"></i>
+                </a>
+                <a href="#" class="header__circle-link">
+                    <i class="header__link-icon fas fa-bell"></i>
+                </a>
+                <a href="#" class="header__circle-link">
+                    <i class="header__link-icon fas fa-sort-down"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="content-area content-area--feed">
+        <section class="sidenav">
+            <div class="sidenav__item">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" class="sidenav__item-img">
+                <span class="sidenav__item-title">
+                    Jane Doe
+                </span>
+            </div>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon">
+                    <i class="fas fa-user-friends"></i>
+                </div>
+                <span class="sidenav__item-title">
+                    Friends
+                </span>
+            </div>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon">
+                    <i class="fas fa-flag"></i>
+                </div>
+                <span class="sidenav__item-title">
+                    Pages
+                    <span class="sidenav__item-notification">
+                        <div class="sidenav__item-notification-circle"></div>
+                        9+ new
+                    </span>
+                </span>
+            </div>
+            <div class="sidenav__item">
+                <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+                    <i class="fas fa-users"></i>
+                </div>
+                <span class="sidenav__item-title">
+                    Groups
+                    <span class="sidenav__item-notification">
+                        <div class="sidenav__item-notification-circle"></div>
+                        3+ new
+                    </span>
+                </span>
+            </div>
+        </section>
+    </section>
+</body>
+</html>
