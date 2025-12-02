@@ -12,7 +12,7 @@
     --fb-red: #ee2340;
     --fb-green: #3db557;
     --fb-yellow: #f6b024;
-    --fb-bgcolor: #F2F4F7;
+    --fb-bgcolor: #eef0f3;
     --fb-white: #ffffff;
     --fb-whitebg: #ffffff;
     --dark-color-text: #090909;
@@ -97,19 +97,23 @@ header {
     font-size: 1.3rem;
 }
 
-.header__menu-tab--active, .header__menu-tab:hover {
+.header__menu-tab--active,
+.header__menu-tab:hover {
     border-bottom: 4px solid var(--fb-blue);
 }
 
-.header__menu-tab:hover .fas, .header__menu-tab:hover .fab {
+.header__menu-tab:hover .fas,
+.header__menu-tab:hover .fab {
     color: var(--fb-blue);
 }
 
-.header__menu-tab--active .fas, .header__menu-tab--active .fab {
+.header__menu-tab--active .fas,
+.header__menu-tab--active .fab {
     color: var(--fb-blue);
 }
 
-.header__menu-tab .fas, .header__menu-tab .fab {
+.header__menu-tab .fas,
+.header__menu-tab .fab {
     position: relative;
 }
 
@@ -180,7 +184,7 @@ header {
 
 /* SIDENAV */
 
-.content-area--text {
+.content-area--feed {
     padding: 90px 15px 20px;
     display: flex;
 }
