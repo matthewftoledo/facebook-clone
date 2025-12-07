@@ -323,7 +323,7 @@ header {
     object-position: center;
     width: 125px;
     height: 200px;
-    opacity: 0.4;
+    opacity: 0.2;
     transition: opacity 0.3s ease-in-out;
 }
 
@@ -355,5 +355,20 @@ header {
     border: 4px solid var(--fb-white);
     position: absolute;
     top: -20px;
-    left: 40px;
+    left: 35px;
+}
+
+.stories__video-container--plain .stories__title {
+    background: transparent;
+    color: var(--fb-white);
+}
+
+.stories__user {
+    border: 4px solid var(--fb-blue);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: absolute;
+    top: -113px;
+    left: 10px;
 }
