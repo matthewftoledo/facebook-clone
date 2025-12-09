@@ -502,11 +502,11 @@ header {
     margin-bottom: 20px;
 }
 
+/* PHOTOPOST IMG */
+
 .photopost__image img {
     width: 100%;
 }
-
-/* PHOTOPOST IMG */
 
 .photopost__stats {
     height: 50px;
