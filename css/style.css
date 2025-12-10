@@ -23,6 +23,24 @@
     --shadow-color: rgba(0, 0, 0, 0.25);
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        --fb-blue: #0a86f0;
+        --fb-bluebg: #52b0f2;
+        --fb-black: #ffffff;
+        --fb-red: #ee2340;
+        --fb-green: #6fcf97;
+        --fb-yellow: #f6b024;
+        --fb-bgcolor: #000000;
+        --fb-white: #ffffff;
+        --fb-whitebg: #141418;
+        --dark-color-text: #FFFFFF;
+        --light-color-text: #d4d4dc;
+        --button-link: #0a86f0;
+        --stories-bg: #0a86f0;
+    }
+}
+
 body {
     background: var(--fb-bgcolor);
     font-family: Helvetica, Arial, sans-serif;
@@ -629,7 +647,7 @@ header {
 }
 
 .floatingmsg__bubble:hover .fa-edit {
-    color: var(--fb-blue);
+    color: var(--fb-bluebg);
 }
 
 .floatingmsg__notification {
