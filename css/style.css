@@ -98,7 +98,7 @@ header {
 }
 
 .header__mobile-button {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     font-size: 1.7rem;
@@ -680,11 +680,16 @@ header {
     .header__menu-tabs {
         display: none;
     }
+    .feed {
+        width: 100%;
+    }
 }
 
 /* +++ Lap top +++ */
 @media only screen and (max-width: 1000px) {
-
+    .sidenav {
+        display: none;
+    }
 }
 
 /* +++ iPad +++ */
@@ -704,9 +709,32 @@ header {
         height: 40px;
         padding: 0;
     }
+    .header__mobile-button {
+    display: flex;
+    }
+    .feed {
+        display: block;
+    }
+    .stories {
+        flex-wrap: nowrap;
+        z-index: 9;
+        padding-bottom: 20px;
+        overflow-x: scroll;
+    }
+    .stories__video-container {
+        flex: 1 0 auto;
+    }
+    .content-area--feed {
+        width: 100%;
+    }
 }
 
 /* +++ Sm cell phone +++ */
-@media only screen and (max-width: 320px) {
-
+@media only screen and (max-width: 411px) {
+    .header__account {
+        display: none;
+    }
+    .post-types__item {
+        display: none;
+    }
 }
